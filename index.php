@@ -3,8 +3,9 @@
 
 <head>
     <title>Login</title>
-    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <meta charset="UTF-8">
 </head>
 
@@ -28,9 +29,11 @@
                             <a class="nav-link" href="#">Pricing</a>
                         </li>
                     </ul>
-                    <span class="navbar-text">
-                        Navbar text with an inline element
+                    <a href="login.php">                    
+                    <span class="navbar-item">
+                        <span span class="icone icone-custom pull-right"><i class="fa fa-user-circle-o" aria-hidden="true">Ingresar</i></span>
                     </span>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -64,24 +67,24 @@
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="carousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="carousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
 
     <div class="card mt-2" style="width: 18rem;">
-  <img src="img/card.png" class="card-img-top" alt="..." height="250px">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+        <img src="img/card.png" class="card-img-top" alt="..." height="250px">
+        <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
 
 </body>
 
