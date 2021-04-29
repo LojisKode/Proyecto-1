@@ -1,0 +1,13 @@
+.bg{
+    background-image: url(img/estetica.jpg);
+    background-position: center center;
+}
+
+body{
+    background: #cef2d1;
+    background: linear-gradient(to right, #7cc2b5, #375254);
+}
+
+img {
+    border-radius: 50%;
+}
